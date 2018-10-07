@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+}
+
+canvas {
+    border: 1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    text-align: center;
+    position: center;
+}
+
+h1{
+    margin-left: 160px;
+    padding: 0px 20px;
+    background-color: crimson;
+}
+
+.sidebar{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.main{
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+.firstP{
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
+
+.gameBoardClass{
+    background-image: repeating-linear-gradient(0deg,transparent,transparent 50px,#CCC 50px,#CCC 51px),
+                        repeating-linear-gradient(-90deg,transparent,transparent 50px,#CCC 50px,#CCC 51px);
+    background-size: 51px 51px;
+    background-color: darkslategray;
+}
+
+.data{
+    background-color: pink;
+    
+    
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+       
+        <link rel = "stylesheet" href="Nonogram.css">
+      
+    </head>
+
+    <body>
+        <script type="text/javascript" src="Nonogram.js" ></script>
+        <h1>Nonogram [Currently under construction]</h1>
+
+
+        <!--Side Bar Section Begins-->
+       <div class="sidebar">
+            <p>[Side Bar currently under construction]</p>
+
+                Size: <input type="number" id="boardSize" value="250" step="50">
+                Turn Count: <input type="text" id="turnCount" name=blockColor" value=0><br>
+                Game Status: <input type="text" name=blockColor" value = "On"><br>
+                Timer:  <input type="text" id="gameTimer" name=blockColor"><br>
+<!--
+                Color: <input type="text" name=color"><br>
+                Block Color: <input type="text" name=blockColor"><br>
+                Element Count:  <input type="text" name=blockColor"><br>
+                Need Hint?  <input type="text" name=blockColor"><br>
+                Random Puzzle: <input type="text" name=blockColor"><br>
+                Level Creation:  <input type="text" name=blockColor"><br>
+                Game Mode:  <input type="text" name=blockColor"><br>
+-->
+              
+       </div>
+       <!--Side Bar Section Ends-->
+        
+       <!--Main Section Begins-->
+       <div class="main"></div>
+            <p class="firstP" id="firstP"> 
+                  
+                    X: <input class="data" type="text" id="mouseCoordsX" value=0><br>
+                    Y: <input class="data" type="text" id="mouseCoordsY" value=0><br>
+                    X (rounded): <input class="data" type="text" id="roundedX" value=0><br>
+                    Y (rounded): <input class="data" type="text" id="roundedY" value=0><br>
+                    <button onclick="testFunction()">Debug Testing</button>
+                    <button onclick="setGridSize()">Adjust Size</button>
+                    <button onclick="resetGame()">Reset Game</button>
+            </p>
+   
+            <!--Canvas for Nonogram Game Board-->
+            <p class="firstP" id="firstP">
+                <canvas class="gameBoardClass" id='gameBoard' width=250 height=250"></canvas>
+            </p>            
+            <!--                              -->
+       </div>
+       <!--Main Section Ends-->
+    </body>
+</html>
